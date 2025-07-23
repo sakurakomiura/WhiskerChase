@@ -22,7 +22,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Whisker Chase 🐱🐭")
 
 # Load background image
-background_img = pygame.image.load(r"C:\Users\sakuc\My Project\Whisker Chase\background.png").convert_alpha()
+background_img = pygame.image.load("background.png").convert_alpha()
 background_img = pygame.transform.scale(background_img, (WIDTH, HEIGHT))
 
 # Cat and mouse sizes
@@ -34,8 +34,8 @@ CAT_SPEED = 15     # Slower for the cat
 MOUSE_SPEED = 100 # Faster for the mouse
 
 # Load images for cat and mouse
-cat_img = pygame.image.load(r"C:\Users\sakuc\My Project\Whisker Chase\cat.png").convert_alpha()
-mouse_img = pygame.image.load(r"C:\Users\sakuc\My Project\Whisker Chase\mouse.png").convert_alpha()
+cat_img = pygame.image.load("cat.png").convert_alpha()
+mouse_img = pygame.image.load("mouse.png").convert_alpha()
 
 
 # Resize images to match character sizes
